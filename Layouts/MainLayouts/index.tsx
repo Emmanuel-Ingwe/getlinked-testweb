@@ -1,5 +1,5 @@
-import Footer from "@/components/layouts/Footer";
-import Navigation from "@/components/layouts/Navigation";
+import Footer from "../../components/Layouts/Footer";
+import Navigation from "../../components/Layouts/Navigation"
 import Head from "next/head";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
