@@ -1,14 +1,18 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import MainLayout from "../../Layouts/MainLayouts";
+import { NextPageWithLayout } from "./_app";
 
-const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
-  return (
-    <main
-      className=""
-    >
-      hello
-    </main>
-  )
-}
+const IndexPage: NextPageWithLayout = ({}) => {
+	return (
+		<>
+			hello
+		</>
+	);
+};
+
+export default IndexPage;
+
+IndexPage.getLayout = function getLayout(page) {
+	return <MainLayout>{page}</MainLayout>;
+};
+
