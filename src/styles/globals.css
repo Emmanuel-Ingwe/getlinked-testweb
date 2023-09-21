@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Clash+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unica+One:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MADE+TOMMY+Outline:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Typo+Hoop+Demo:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Voces:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
