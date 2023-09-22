@@ -7,7 +7,7 @@ const Navigation = () => {
 
 	return (
 		<>
-			<nav className='flex items-center h-16 lg:h-[88px] fixed bg-white z-50 top-0 w-full navigation-bg border-b border-[#F0F0F0]'>
+			<nav className='flex items-center h-16 lg:h-[88px] fixed bg-white z-50 top-0 w-full border-b border-[#F0F0F0]'>
 				<div className='container flex items-center justify-between'>
 					<div>
 						<Link href='/' passHref>
