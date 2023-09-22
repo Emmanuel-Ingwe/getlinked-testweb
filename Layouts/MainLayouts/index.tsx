@@ -16,7 +16,7 @@ type MainLayoutProps = {
 
 const MainLayout = ({
 	children,
-	title = "Swidex | Building Financial Security Together.",
+	title = "Hackaton 1.0",
 }: MainLayoutProps) => {
 	useEffect(() => {
 		AOS.init({
