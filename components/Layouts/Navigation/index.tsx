@@ -1,6 +1,8 @@
+import { navigationLinks } from "../../../Data/navigation";
 import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import React, { useState } from "react";
+import NavigationLink from "../NavigationLink";
 
 const Navigation = () => {
 	const [showMobileNav, setShowMobileNav] = useState(false);
@@ -18,7 +20,9 @@ const Navigation = () => {
 					</div>
 					<div className='flex items-center space-x-8'>
 						<ul className='space-x-12 hidden xl:flex'>
-							''
+						{navigationLinks.map((link) => {
+								return <NavigationLink key={link.title} link={link} />;
+							})}
 						</ul>
 						<div className='space-x-4 hidden xl:flex'>
 							<Link href='/' target='_blank'
