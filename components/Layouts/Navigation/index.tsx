@@ -12,6 +12,7 @@ const Navigation = () => {
 					<div>
 						<Link href='/' passHref>
 							<div className='w-[87px] h-8 md:h-12 xl:w-[97px]'>
+								nai
 							</div>
 						</Link>
 					</div>
@@ -22,7 +23,7 @@ const Navigation = () => {
 						<div className='space-x-4 hidden xl:flex'>
 							<Link href='/' target='_blank'
 									className='text-xs w-[153px] lg:text-sm font-medium py-2.5'>
-									Join us
+									Register
 							</Link>
 						</div>
 					</div>
