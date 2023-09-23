@@ -32,6 +32,10 @@ module.exports = {
           "100": "#d434fe",
           "200": "rgba(212, 52, 254, 0.12)",
         },
+        gradient: {
+          general: 'linear-gradient(270deg,_#903aff,_#d434fe_56.42%,_#ff26b9_99.99%,_#fe34b9)',
+          icon: 'linear-gradient(125.8deg, #9666FF 6.28%, #5645F5 99.52%)',
+        },
         gainsboro: "rgba(217, 217, 217, 0.03)",
         red: "#ff0000",
         cornflowerblue: "#00a3ff",

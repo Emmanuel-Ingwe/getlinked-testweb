@@ -15,8 +15,8 @@ const NavigationLink = ({ link }: NavigationLinkProps) => {
 	return (
 		<li
 			className={cn(
-				"font-SpaceGrotesk font-medium transition-all rounded-lg hover:text-primary relative",
-				isActive(link.href!) ? "text-primary" : "text-[#818181]"
+				"font-SpaceGrotesk text-base font-medium transition-all rounded-lg hover:text-primary relative",
+				isActive(link.href!) ? "text-primary" : "text-white"
 			)}>
 			<Link href={link.href!} className='p-[6px] flex items-center'>
 				<span>{link.title}</span>

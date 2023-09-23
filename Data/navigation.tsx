@@ -14,15 +14,19 @@ export type NavigationLinkType = {
 
 export const navigationLinks: NavigationLinkType[] = [
 	{
-		title: "About Us",
-		href: "#about",
+		title: "Timeline",
+		href: "#timeline",
 	},
 	{
-		title: "Products",
-		href: "#products",
+		title: "Overview",
+		href: "#overview",
 	},
 	{
-		title: "Contact Us",
+		title: "FAQs",
+		href: "#faqs",
+	},
+    {
+		title: "Contact",
 		href: "#contact",
 	},
 ];

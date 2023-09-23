@@ -1,6 +1,7 @@
 import { navigationLinks } from "../../../Data/navigation";
 import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import Button from "../../global/Button";
 import React, { useState } from "react";
 import NavigationLink from "../NavigationLink";
 
@@ -9,25 +10,27 @@ const Navigation = () => {
 
 	return (
 		<>
-			<nav className='flex items-center h-16 lg:h-[88px] fixed bg-gray-100 z-50 top-0 w-full border-b border-hr'>
+			<nav className='flex items-center pt-[67px] pb-[30px] fixed bg-gray-100 z-50 top-0 w-full border-b border-hr'>
 				<div className='container flex items-center justify-between'>
 					<div>
 						<Link href='/' passHref>
-							<div className='w-[87px] h-8 md:h-12 xl:w-[97px]'>
-								nai
+							<div className=''>
+								<h1 className="text-17xl font-[700]">get<span className="text-fuchsia-100">linked</span></h1>
 							</div>
 						</Link>
 					</div>
-					<div className='flex items-center space-x-8'>
+					<div className='flex items-center space-x-28'>
 						<ul className='space-x-12 hidden xl:flex'>
 						{navigationLinks.map((link) => {
 								return <NavigationLink key={link.title} link={link} />;
 							})}
 						</ul>
-						<div className='space-x-4 hidden xl:flex'>
+						<div className='space-x-4 hidden xl:flex text-base'>
 							<Link href='/' target='_blank'
-									className='text-xs w-[153px] lg:text-sm font-medium py-2.5'>
-									Register
+									className='w-[153px] lg:text-s font-medium py-2.5'>
+										<Button
+										label="Register" className="bg-gradient-general"
+										/>
 							</Link>
 						</div>
 					</div>
