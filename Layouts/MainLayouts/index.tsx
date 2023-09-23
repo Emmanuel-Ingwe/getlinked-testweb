@@ -55,8 +55,8 @@ const MainLayout = ({
 			</Head>
 			<>
 				<Navigation />
-				<main className='w-full pt-[64px] xl:pt-[88px]'>{children}</main>
-				<Footer />
+				<main className='w-full'>{children}</main>
+				{/* <Footer /> */}
 			</>
 		</>
 	);
