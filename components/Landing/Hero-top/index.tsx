@@ -8,7 +8,7 @@ const index = (props: Props) => {
         const [text, count] = useTypewriter({
             words: ["Igniting a Revolution in HR Innovation"],
             loop: true,
-            delaySpeed: 1000,
+            delaySpeed: 1050,
         });
 
   return (
