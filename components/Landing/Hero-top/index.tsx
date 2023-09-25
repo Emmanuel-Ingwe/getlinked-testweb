@@ -15,10 +15,10 @@ const index = (props: Props) => {
     <>
         <section id="" className="container">
             <div className="grid xl:grid-cols-2 gap-8 xl:gap-20 items-center">
-                <div className="ml-[64px] mt-[68px]">
+                <div className="ml-[64px] mt-[68px] order-1">
                     <img src="/Images/star@2x.png" width={26} height={32} alt="star2x" className='animate-pulse' />
                 </div>
-                <div className="">
+                <div className="order-2">
                 <h1 className='text-[27px] font-[700] italic tracking-wider'>
 					<span>{text}</span>
 					<Cursor cursorColor='indigo' />
