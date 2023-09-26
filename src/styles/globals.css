@@ -31,7 +31,7 @@
 
 body {
   background: #150e28;
-  overflow: hidden;
+  overflow-x: hidden;
   color: white;
   font-size: 14px;
   font-family: Montserrat;

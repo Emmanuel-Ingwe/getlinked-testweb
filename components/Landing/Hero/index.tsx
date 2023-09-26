@@ -8,18 +8,18 @@ const index = (props: Props) => {
     <>
         <section id="" className="container">
             <div className="grid xl:grid-cols-2 gap-8 xl:gap-20 items-center">
-                <div className="ml-[64px] mt-[68px] order-2 xl:order-1">
+                <div className="ml-[64px] mt-[68px] w-/5">
                     <div className="">
                         <div className="">
                             <img src="/Images/star@2x.png" width={26} height={32} alt="star2x" className='animate-pulse' />
                         </div>
-                        <h1 className="text-61xl">getlinked Tech</h1>
+                        <h1 className="text-[70px] font-extrabold">getlinked Tech</h1>
                     </div>
-                    <div className="">
-                        <h1 className="text-61xl">Hackathon <span>1.0</span></h1>
-                        <div className="">
-                            <img src="/Images/star@2x.png" width={26} height={32} alt="star2x" className='animate-pulse' />
-                            <img src="/Images/star@2x.png" width={26} height={32} alt="star2x" className='animate-pulse' />
+                    <div className="flex">
+                        <h1 className="text-[70px] font-extrabold">Hackathon <span>1.0</span></h1>
+                        <div className="flex">
+                            <img src="/Images/bomb-img.png" width={26} height={32} alt="bomb" className='animate-pulse' />
+                            <img src="/Images/chain.png" width={26} height={32} alt="chain" className='animate-pulse' />
                         </div>
                     </div>
                     <div className="">
@@ -29,10 +29,12 @@ const index = (props: Props) => {
                         label='Register'
                      />
                 </div>
+
                 <div className="">
-                <div>
-                    #
-                </div>
+                    <div>
+                        <img src="/Images/hero-img.png" alt="" />
+                        <img src="/Images/image-1@2x.png" alt="" />
+                    </div>
                 </div>
             </div>
         </section>
