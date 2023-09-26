@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../../global/Button'
 
 type Props = {}
 
@@ -24,6 +25,9 @@ const index = (props: Props) => {
                     <div className="">
                         <p className="">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
                     </div>
+                    <Button
+                        label='Register'
+                     />
                 </div>
                 <div className="">
                 <div>
