@@ -19,7 +19,7 @@ const index = (props: Props) => {
                     <img src="/Images/star@2x.png" width={26} height={32} alt="star2x" className='animate-pulse' />
                 </div>
                 <div className="order-1 xl:order-2">
-                <h1 className='text-[27px] font-[700] italic tracking-wider'>
+                <h1 className='xl:text-[27px] pt-7 xl:pt-0 text-[17px] font-[700] italic xl:tracking-wide'>
 					<span>{text}</span>
 					<Cursor cursorColor='indigo' />
 				</h1>

@@ -15,7 +15,7 @@ const Navigation = () => {
 					<div>
 						<Link href='/' passHref>
 							<div className=''>
-								<h1 className="text-17xl font-[700]">get<span className="text-fuchsia-100">linked</span></h1>
+								<h1 className="xl:text-17xl text-5xl font-[700]">get<span className="text-fuchsia-100">linked</span></h1>
 							</div>
 						</Link>
 					</div>
