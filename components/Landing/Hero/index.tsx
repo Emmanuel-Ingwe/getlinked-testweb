@@ -11,7 +11,7 @@ const index = (props: Props) => {
                 <div className="ml-[64px] mt-[68px] w-/5">
                     <div className="">
                         <div className="">
-                            <img src="/Images/star@2x.png" width={26} height={32} alt="star2x" className='animate-pulse' />
+                            <img src="/Images/creative-1@2x.png" width={26} height={32} alt="star2x" className='animate-pulse' />
                         </div>
                         <h1 className="text-[70px] font-extrabold">getlinked Tech</h1>
                     </div>
