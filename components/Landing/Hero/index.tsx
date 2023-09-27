@@ -30,8 +30,8 @@ const index = (props: Props) => {
                      />
                 </div>
 
-                <div className="">
-                    <div>
+                <div className="flex">
+                    <div className='flex'>
                         <img src="/Images/hero-img.png" alt="" />
                         <img src="/Images/image-1@2x.png" alt="" />
                     </div>
