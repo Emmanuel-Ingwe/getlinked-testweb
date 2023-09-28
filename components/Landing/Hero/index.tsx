@@ -8,7 +8,7 @@ const index = (props: Props) => {
   return (
     <>
         <section id="" className="container">
-            <div className="grid xl:grid-cols-2 gap-8 xl:gap-20 items-center">
+            <div className="grid xl:grid-cols-2 gap-8 xl:gap-20 items items-start">
                 <div className="">
                     <div className="">
                         <div className="">
@@ -36,8 +36,8 @@ const index = (props: Props) => {
                 </div>
 
                 <div className="flex justify-end relative">
-                            <Image src="/Images/hero-img.png" alt="" width={928} height={715} className='' />
-                            <img src="/Images/image-1@2x.png" alt=""  height={641} width={667} className='absolute' />
+                        <Image src="/Images/hero-img.png" alt="" width={928} height={715} className='' />
+                        <img src="/Images/image-1@2x.png" alt=""  height={641} width={667} className='absolute' />
                 </div>
             </div>
         </section>
