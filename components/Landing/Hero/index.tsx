@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../../global/Button'
+import Image from 'next/image'
 
 type Props = {}
 
@@ -19,10 +20,10 @@ const index = (props: Props) => {
                         <h1 className="text-[70px] font-extrabold">Hackathon <span>1.0</span></h1>
                         <div className="flex">
                             <div className="">
-                                <img src="/Images/bomb-img.png" width={26} height={32} alt="bomb" className='animate-pulse' />
+                                <img src="/Images/chain.png" width={26} height={32} alt="chain" className='' />
                             </div>
                             <div className="">
-                                <img src="/Images/chain.png" width={26} height={32} alt="chain" className='animate-pulse' />
+                                <img src="/Images/bomb-img.png" width={26} height={32} alt="bomb" className='' />
                             </div>
                         </div>
                     </div>
@@ -34,9 +35,9 @@ const index = (props: Props) => {
                      />
                 </div>
 
-                <div className="flex justify-end">
-                            <img src="/Images/hero-img.png" alt="" width={828} height={715} />
-                            {/* <img src="/Images/image-1@2x.png" alt=""  height={641} width={667} /> */}
+                <div className="flex justify-end relative">
+                            <Image src="/Images/hero-img.png" alt="" width={928} height={715} className='' />
+                            <img src="/Images/image-1@2x.png" alt=""  height={641} width={667} className='absolute' />
                 </div>
             </div>
         </section>
