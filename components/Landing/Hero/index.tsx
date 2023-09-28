@@ -12,12 +12,12 @@ const index = (props: Props) => {
                 <div className="">
                     <div className="">
                         <div className="">
-                            <img src="/Images/creative-1@2x.png" width={26} height={32} alt="star2x" className='animate-pulse' />
+                            <img src="/Images/creative-1@2x.png" width={26} height={32} alt="creative" className='animate-pulse' />
                         </div>
                         <h1 className="text-[70px] font-extrabold">getlinked Tech</h1>
                     </div>
                     <div className="flex">
-                        <h1 className="text-[70px] font-extrabold">Hackathon <span>1.0</span></h1>
+                        <h1 className="text-[70px] font-extrabold">Hackathon <span className='text text-fuchsia-600'>1.0</span></h1>
                         <div className="flex">
                             <div className="">
                                 <img src="/Images/chain.png" width={26} height={32} alt="chain" className='' />
