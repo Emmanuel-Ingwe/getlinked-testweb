@@ -8,7 +8,7 @@ const index = (props: Props) => {
     <>
         <section id="" className="container">
             <div className="grid xl:grid-cols-2 gap-8 xl:gap-20 items-center">
-                <div className="ml-[64px] mt-[68px] w-/5">
+                <div className="">
                     <div className="">
                         <div className="">
                             <img src="/Images/creative-1@2x.png" width={26} height={32} alt="star2x" className='animate-pulse' />
@@ -18,8 +18,12 @@ const index = (props: Props) => {
                     <div className="flex">
                         <h1 className="text-[70px] font-extrabold">Hackathon <span>1.0</span></h1>
                         <div className="flex">
-                            <img src="/Images/bomb-img.png" width={26} height={32} alt="bomb" className='animate-pulse' />
-                            <img src="/Images/chain.png" width={26} height={32} alt="chain" className='animate-pulse' />
+                            <div className="">
+                                <img src="/Images/bomb-img.png" width={26} height={32} alt="bomb" className='animate-pulse' />
+                            </div>
+                            <div className="">
+                                <img src="/Images/chain.png" width={26} height={32} alt="chain" className='animate-pulse' />
+                            </div>
                         </div>
                     </div>
                     <div className="">
@@ -30,11 +34,9 @@ const index = (props: Props) => {
                      />
                 </div>
 
-                <div className="flex">
-                    <div className='flex'>
-                        <img src="/Images/hero-img.png" alt="" />
-                        <img src="/Images/image-1@2x.png" alt="" />
-                    </div>
+                <div className="flex justify-end">
+                            <img src="/Images/hero-img.png" alt="" width={828} height={715} />
+                            {/* <img src="/Images/image-1@2x.png" alt=""  height={641} width={667} /> */}
                 </div>
             </div>
         </section>
