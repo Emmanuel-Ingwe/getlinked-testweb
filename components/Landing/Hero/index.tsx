@@ -9,10 +9,10 @@ const index = (props: Props) => {
     <>
         <section id="" className="container">
             <div className="grid xl:grid-cols-2 gap- xl:gap- items items-start">
-                <div className="">
-                    <div className="">
-                        <div className="">
-                            <img src="/Images/creative-1@2x.png" width={26} height={32} alt="creative" className='animate-pulse' />
+                <div className="mt-[80px]">
+                    <div className="relative">
+                        <div className="flex justify-end relativ absolute right-[150px] -top-[44px]">
+                            <img src="/Images/creative-1@2x.png" width={53} height={72} alt="creative" className='' />
                         </div>
                         <h1 className="text-[70px] font-extrabold">getlinked Tech</h1>
                     </div>
