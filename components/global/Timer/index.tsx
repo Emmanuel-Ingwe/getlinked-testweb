@@ -31,8 +31,8 @@ const Timer: React.FC = () => {
   };
 
   return (
-    <div className="text-3xl font-bold">
-      {formatNumberWithZero(hours)}:{formatNumberWithZero(minutes)}:{formatNumberWithZero(seconds)}
+    <div className="text-[64px] leading-[133%] font-unica-one">
+      {formatNumberWithZero(hours)}<span className='text-[14px] font-montserrat'>H</span> {formatNumberWithZero(minutes)}<span className='text-[14px] font-montserrat'>M</span> {formatNumberWithZero(seconds)}<span className='text-[14px] font-montserrat'>S</span>
     </div>
   );
 };
