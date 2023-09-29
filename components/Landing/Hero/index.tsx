@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../../global/Button'
 import Image from 'next/image'
+import Timer from '../../global/Timer'
 
 type Props = {}
 
@@ -8,7 +9,7 @@ const index = (props: Props) => {
   return (
     <>
         <section id="" className="container">
-            <div className="grid xl:grid-cols-2 gap- xl:gap- items items-start">
+            <div className="grid xl:grid-cols-2 gap- xl:gap- items-start">
                 <div className="mt-[80px]">
                     <div className="relative">
                         <div className="flex justify-end relativ absolute right-[150px] -top-[44px]">
@@ -16,23 +17,26 @@ const index = (props: Props) => {
                         </div>
                         <h1 className="text-[70px] font-extrabold">getlinked Tech</h1>
                     </div>
-                    <div className="flex">
-                        <h1 className="text-[70px] font-extrabold">Hackathon <span className='text text-fuchsia-600'>1.0</span></h1>
-                        <div className="flex">
+                    <div className="flex relative">
+                        <h1 className="text-[70px] font-extrabold leading-none">Hackathon <span className='text text-fuchsia-600'>1.0</span></h1>
+                        <div className="flex absolute -right-5 bottom-3">
                             <div className="">
-                                <img src="/Images/chain.png" width={26} height={32} alt="chain" className='' />
+                                <img src="/Images/chain.png" width={80} height={82} alt="chain" className='' />
                             </div>
                             <div className="">
-                                <img src="/Images/bomb-img.png" width={26} height={32} alt="bomb" className='' />
+                                <img src="/Images/bomb-img.png" width={78} height={32} alt="bomb" className='' />
                             </div>
                         </div>
                     </div>
-                    <div className="">
-                        <p className="">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
+                    <div className="w-[80%] mt-[8px]">
+                        <p className="text-xl">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
                     </div>
                     <Button
+                    className='mt-[41px]'
                         label='Register'
                      />
+
+                     <Timer />
                 </div>
 
                 <div className="flex justify-end relative">
