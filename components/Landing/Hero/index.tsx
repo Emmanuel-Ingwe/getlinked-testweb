@@ -32,7 +32,7 @@ const index = (props: Props) => {
                         <p className="text-xl">Participate in getlinked tech Hackathon 2023 stand a chance to win a Big prize</p>
                     </div>
                     <Button
-                    className='mt-[41px]'
+                    className='mt-[41px] mb-[77px]'
                         label='Register'
                      />
 
