@@ -2,6 +2,7 @@ import MainLayout from "../../Layouts/MainLayouts";
 import { NextPageWithLayout } from "./_app";
 import HeroTop from "../../components/Landing/Hero-top"
 import Hero from "../../components/Landing/Hero"
+import Intro from "../../components/Landing/Intro"
 
 
 const IndexPage: NextPageWithLayout = ({}) => {
@@ -9,6 +10,7 @@ const IndexPage: NextPageWithLayout = ({}) => {
 		<>
 			<HeroTop />
 			<Hero />
+			<Intro />
 		</>
 	);
 };
