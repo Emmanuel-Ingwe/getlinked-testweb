@@ -3,7 +3,7 @@ import { NextPageWithLayout } from "./_app";
 import HeroTop from "../../components/Landing/Hero-top"
 import Hero from "../../components/Landing/Hero"
 import Intro from "../../components/Landing/Intro"
-
+import Rules from "../../components/Landing/Rules"
 
 const IndexPage: NextPageWithLayout = ({}) => {
 	return (
@@ -11,6 +11,7 @@ const IndexPage: NextPageWithLayout = ({}) => {
 			<HeroTop />
 			<Hero />
 			<Intro />
+			<Rules />
 		</>
 	);
 };
