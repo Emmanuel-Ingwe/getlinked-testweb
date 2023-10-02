@@ -34,7 +34,7 @@ const index = () => {
   return (
     <>
     <div className="border-b border-gray-700">
-        <section id="" className="container">
+        <section id="" className="container mb-[80px]">
             <div className="grid xl:grid-cols-2 gap-5 xl:gap- items-start">
                 <div className="mt-[193px]">
                   <div className="flex items-center">
