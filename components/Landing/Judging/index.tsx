@@ -52,7 +52,7 @@ const index = () => {
                     <div className="mb-[30px] mt-[21px]">
                         {items.map((item, index) => {
                             return (
-                          <p className='font-montserrat text-[14px] mb-[26px]'><span className=''>{item.span}</span> {item.para}</p>
+                          <p className='font-montserrat text-[14px] mb-[26px]'><span className='text-pink-500 text-[16px] font-bold'>{item.span}</span> {item.para}</p>
                         )})}
                     </div>
                     <div className="">
