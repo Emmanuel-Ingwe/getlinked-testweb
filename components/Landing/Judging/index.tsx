@@ -48,12 +48,12 @@ const index = () => {
                       <h2 className='text-[32px] font-bold'>Judging Criteria</h2>
                       <h2><span className='text-[32px] font-bold text text-fuchsia-600'>Key attributes</span></h2>
                     </div>
-                    <div className="mt-[16px] mb-[100px]">
-                    {items.map((item, index) => {
-						             return (
-                      <p className='font-montserrat text-[14px] xl:w-[535px] xl:h-[165px]'><span>{item.span}</span> {item.para}</p>
-                     )}
-                      )}
+
+                    <div className="mb-[30px] mt-[21px]">
+                        {items.map((item, index) => {
+                            return (
+                          <p className='font-montserrat text-[14px] mb-[26px]'><span className=''>{item.span}</span> {item.para}</p>
+                        )})}
                     </div>
                     <div className="">
                       <Button label='Read More' />
