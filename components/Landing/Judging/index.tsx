@@ -3,6 +3,30 @@ import Button from '../../global/Button'
 
 type Props = {}
 
+export type NavigationLinkType = {
+	span: string;
+	para: string;
+};
+
+export const navigationLinks: NavigationLinkType[] = [
+	{
+		span: "Timeline",
+		para: "#timeline",
+	},
+	{
+		span: "Overview",
+		para: "#overview",
+	},
+	{
+		span: "FAQs",
+		para: "#faqs",
+	},
+    {
+		span: "Contact",
+		para: "#contact",
+	},
+];
+
 const index = (props: Props) => {
   return (
     <>
