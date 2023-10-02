@@ -1,17 +1,16 @@
 import React from 'react'
 import Button from '../../global/Button'
 
-type Props = {}
 
-export type NavigationLinkType = {
+type para = {
 	span: string;
 	para: string;
 };
 
-export const navigationLinks: NavigationLinkType[] = [
+const navigationLinks: para[] = [
 	{
-		span: "Timeline",
-		para: "#timeline",
+		span: "Innovation and Creativity:",
+		para: "Evaluate the uniqueness and creativity of the solution. Consider whether it addresses a real-world problem in a novel way or introduces innovative features.",
 	},
 	{
 		span: "Overview",
@@ -27,7 +26,7 @@ export const navigationLinks: NavigationLinkType[] = [
 	},
 ];
 
-const index = (props: Props) => {
+const index = (props: para) => {
   return (
     <>
     <div className="border-b border-gray-700">
