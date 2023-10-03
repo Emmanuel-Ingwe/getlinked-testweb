@@ -5,6 +5,7 @@ import Hero from "../../components/Landing/Hero"
 import Intro from "../../components/Landing/Intro"
 import Rules from "../../components/Landing/Rules"
 import Judging from "../../components/Landing/Judging"
+import Question from "../../components/Landing/Question"
 
 const IndexPage: NextPageWithLayout = ({}) => {
 	return (
@@ -14,6 +15,7 @@ const IndexPage: NextPageWithLayout = ({}) => {
 			<Intro />
 			<Rules />
 			<Judging />
+			<Question />
 		</>
 	);
 };
