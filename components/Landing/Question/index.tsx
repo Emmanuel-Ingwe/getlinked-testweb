@@ -18,7 +18,9 @@ const index = (props: Props) => {
 
                 <div className="">
                   <div className=""></div>
-                  <div className=""></div>
+                  <div className="">
+                    <img src="cwok-casual-21-1@2x.png" alt="casual" />
+                  </div>
                 </div>
             </div>
         </section>
