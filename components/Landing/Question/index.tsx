@@ -13,10 +13,13 @@ const index = (props: Props) => {
                   <h1><span className='text-[32px] font-bold text text-fuchsia-600'>Questions</span></h1>
                 </div>
                 <div className="">
-                  <p className=""></p>
+                  <p className="">We got answers to the questions that you might want to ask about getlinked Hackathon 1.0</p>
                 </div>
 
-                <div className="">ee</div>
+                <div className="">
+                  <div className=""></div>
+                  <div className=""></div>
+                </div>
             </div>
         </section>
     </div>
