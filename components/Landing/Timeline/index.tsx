@@ -51,7 +51,7 @@ const index = () => {
                 <p>{item.rightText}</p>
               </div>
             </div>
-                 </div>
+            </div>
              ))}
           </div>
           </div>
