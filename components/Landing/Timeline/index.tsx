@@ -42,7 +42,7 @@ const index = () => {
                     <p>{item.leftText}</p>
                   </div>
                   <div key={index} className="relative">  
-                  <div className="h-[50px] w-3 bg-blue-500 absolute top-0 -mt-[50px]"></div>
+                  <div className="h-[50px] w-3 bg-fuchsia-500 absolute top-0 -mt-[50px]"></div>
                   <div className="rounded-full bg-blue-500 text-white w-16 h-16 flex items-center justify-center text-2xl font-semibold">
                     {item.number}
                   </div>
