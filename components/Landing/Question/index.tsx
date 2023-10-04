@@ -72,7 +72,7 @@ const index = () => {
                 </div>
             </div>
         </section>
-    </div>
+      </div>
     </>
   )
 }

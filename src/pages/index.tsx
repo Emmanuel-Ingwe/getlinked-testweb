@@ -6,6 +6,7 @@ import Intro from "../../components/Landing/Intro"
 import Rules from "../../components/Landing/Rules"
 import Judging from "../../components/Landing/Judging"
 import Question from "../../components/Landing/Question"
+import Timeline from "../../components/Landing/Timeline"
 
 const IndexPage: NextPageWithLayout = ({}) => {
 	return (
@@ -16,6 +17,7 @@ const IndexPage: NextPageWithLayout = ({}) => {
 			<Rules />
 			<Judging />
 			<Question />
+			<Timeline />
 		</>
 	);
 };
