@@ -9,19 +9,10 @@ type Item = {
 const index = () => {
   const items: Item[] = [
     {
-      leftText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      leftTexth1: "Hackathon Announcement",
+      leftTextp: "The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register",
       number: 1,
-      rightText: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    },
-    {
-      leftText: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-      number: 2,
-      rightText: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    },
-    {
-      leftText: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      number: 3,
-      rightText: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
+      rightText: "November 18, 2023",
     },
   ];
   return (
