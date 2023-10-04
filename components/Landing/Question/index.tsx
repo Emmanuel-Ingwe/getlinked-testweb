@@ -37,20 +37,27 @@ const index = () => {
     <>
     <div className="border-b border-gray-700">
         <section id="" className="container">
-            <div className="grid xl:grid-cols-2 gap-5 xl:gap- items-start">
-                <div className="">
-                  <div className="">
-                    <h1 className="">Frequently Asked</h1>
+            <div className="grid xl:grid-cols-2 mt-[150px] items-center justify-center">
+                <div className="it flex flex-col">
+                  <div className="mb-[16px]">
+                    <h1 className="text-[32px] font-bold">Frequently Asked</h1>
                     <h1><span className='text-[32px] font-bold text text-fuchsia-600'>Questions</span></h1>
                   </div>
-                  <div className="">
-                    <p className="">We got answers to the questions that you might</p>
-                    <p className="">want to ask about getlinked Hackathon 1.0</p>
+                  <div className="lead leading-[27px]">
+                    <p className="text-[14px]">We got answers to the questions that you might</p>
+                    <p className="text-[14px] mb-[26px]">want to ask about getlinked Hackathon 1.0</p>
                   </div>
-                  <div className="mb-[30px] mt-[21px]">
+                  <div className="mb-[30px] mt-[68px]">
                         {items.map((item, index) => {
                             return (
-                          <p className='font-montserrat text-[14px] mb-[26px]'>{item.span} {''} {item.i}</p>
+                          <div className="flex justify-between w-[427px]">
+                            <div className="">
+                              <p className='font-montserrat text-[14px] mb-[26px]'>{item.span}</p>
+                            </div>
+                            <div className="j flex justify-end">
+                              <span>{item.i}</span>
+                            </div>
+                          </div>
                         )})}
                     </div>
                 </div>
