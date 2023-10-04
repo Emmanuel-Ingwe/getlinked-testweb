@@ -34,11 +34,11 @@ const index = () => {
           </div>  
 
           <div className="">
-          <div className="bg-gray-200 p-4">
+          <div className="p-4">
             {items.map((item, index) => (
               <div key={item.number} className="mb-4 p-4">
-                <div className="flex items-center ">
-                  <div className="w-1/3 text-left">
+                <div className="flex items-center">
+                  <div className="w-1/3 text-left flex flex-col items-center justify-between">
                     <p>{item.leftText}</p>
                   </div>
                   <div key={index} className="relative">  
@@ -47,7 +47,7 @@ const index = () => {
                     {item.number}
                   </div>
                 </div>
-                <div className="w-1/3 text-right">
+                <div key={item.number} className="w-1/3 text-right">
                 <p>{item.rightText}</p>
               </div>
             </div>
