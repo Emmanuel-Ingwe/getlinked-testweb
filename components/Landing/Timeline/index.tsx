@@ -56,7 +56,7 @@ const index = () => {
                 <div className='grid grid-cols-3'>
 
                     <div className="flex flex-col text-right">
-                      <h1 className="">{item.leftTexth1}</h1>
+                      <h1 className="text-[24px] text-fuchsia-500 font-bold">{item.leftTexth1}</h1>
                       <p className="text-[14px]">{item.leftTextp} <br /> to the general public and teams begin to get ready to register</p>
                     </div>
                     
@@ -67,8 +67,8 @@ const index = () => {
                       </div>
                     </div>
 
-                    <div className="flex">
-                      <h1 className="">{item.rightText}</h1>
+                    <div className="flex text-right">
+                      <h1 className="text-[24px] text-fuchsia-500 font-bold">{item.rightText}</h1>
                     </div>
                 </div>
                )})}
