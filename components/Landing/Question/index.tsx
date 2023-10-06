@@ -37,6 +37,7 @@ const index = () => {
     <>
     <div className="border-b border-gray-700">
         <section id="" className="container">
+          <div className="p-[100px]">
             <div className="grid xl:grid-cols-2 items-center justify-center">
                 <div className="mt-[100px]">
                   <div className="mb-[16px]">
@@ -71,6 +72,7 @@ const index = () => {
                   </div>
                 </div>
             </div>
+          </div>
         </section>
       </div>
     </>
