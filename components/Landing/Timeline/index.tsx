@@ -60,7 +60,7 @@ const index = () => {
                       <p className="text-[14px]">{item.leftTextp} <br /> to the general public and teams begin to get ready to register</p>
                     </div>
                     
-                    <div key={index} className="flex justify-center relative w-[5px]">  
+                    <div key={index} className="flex justify-center relative w-[50px]">  
                       <div className="h-[96px] w-[4px] bg-fuchsia-500 absolute top-0 -mt-[106px]"></div>
                       <div className="rounded-full bg-gradient-general text-white w-10 h-10 flex items-center justify-center text-2xl font-semibold mb-[125px]">
                         {item.number}
