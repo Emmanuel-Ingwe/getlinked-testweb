@@ -1,7 +1,8 @@
 import React from 'react'
 
 type Item = {
-  leftText: string;
+  leftTexth1: string;
+  leftTextp: string;
   number: number;
   rightText: string;
 }
@@ -10,8 +11,32 @@ const index = () => {
   const items: Item[] = [
     {
       leftTexth1: "Hackathon Announcement",
-      leftTextp: "The getlinked tech hackathon 1.0 is formally announced to the general public and teams begin to get ready to register",
+      leftTextp: "The getlinked tech hackathon 1.0 is formally announced",
       number: 1,
+      rightText: "November 18, 2023",
+    },
+    {
+      leftTexth1: "Hackathon Announcement",
+      leftTextp: "The getlinked tech hackathon 1.0 is formally announced",
+      number: 2,
+      rightText: "November 18, 2023",
+    },
+    {
+      leftTexth1: "Hackathon Announcement",
+      leftTextp: "The getlinked tech hackathon 1.0 is formally announced",
+      number: 3,
+      rightText: "November 18, 2023",
+    },
+    {
+      leftTexth1: "Hackathon Announcement",
+      leftTextp: "The getlinked tech hackathon 1.0 is formally announced",
+      number: 4,
+      rightText: "November 18, 2023",
+    },
+    {
+      leftTexth1: "Hackathon Announcement",
+      leftTextp: "The getlinked tech hackathon 1.0 is formally announced",
+      number: 5,
       rightText: "November 18, 2023",
     },
   ];
@@ -22,31 +47,34 @@ const index = () => {
           <div className="">
             <h1 className="text-[32px] font-bold text-center">Timeline</h1>
             <p className="xl:w-[346px] text-center text-[14px] mt-[12px]">Here is the breakdown of the time we anticipate using for the upcoming event.</p>
-          </div>  
+          </div> 
+          </div>
 
-          <div className="">
-          <div className="p-4">
-            {items.map((item, index) => (
-              <div key={item.number} className="mb-4 p-4">
-                <div className="flex items-center">
-                  <div className="w-1/3 text-left flex flex-col items-center justify-between">
-                    <p>{item.leftText}</p>
-                  </div>
-                  <div key={index} className="relative">  
-                  <div className="h-[50px] w-3 bg-fuchsia-500 absolute top-0 -mt-[50px]"></div>
-                  <div className="rounded-full bg-gradient-general text-white w-16 h-16 flex items-center justify-center text-2xl font-semibold">
-                    {item.number}
-                  </div>
+          <div className="pt-36">
+            {items.map((item, index) => {
+              return(
+                <div className='grid grid-cols-3 pt-20'>
+
+                    <div className="flex flex-col text-right">
+                      <h1 className="">{item.leftTexth1}</h1>
+                      <p className="text-[14px]">{item.leftTextp} <br /> to the general public and teams begin to get ready to register</p>
+                    </div>
+                    
+                    <div key={index} className="flex justify-center relative">  
+                      <div className="h-[50px] w-1 bg-fuchsia-500 absolute top-0 -mt-[66px]"></div>
+                      <div className="rounded-full bg-gradient-general text-white w-10 h-10 flex items-center justify-center text-2xl font-semibold">
+                        {item.number}
+                      </div>
+                    </div>
+
+                    <div className="flex">
+                      <h1 className="">{item.rightText}</h1>
+                    </div>
                 </div>
-                <div key={item.number} className="w-1/3 text-right">
-                <p>{item.rightText}</p>
-              </div>
-            </div>
-            </div>
-             ))}
+               )})}
           </div>
-          </div>
-        </div>
+
+        
       </section>
     </>
   )
