@@ -53,7 +53,7 @@ const index = () => {
           <div className="pt-36">
             {items.map((item, index) => {
               return(
-                <div className='grid grid-cols-3 pt-20'>
+                <div className='grid grid-cols-3'>
 
                     <div className="flex flex-col text-right">
                       <h1 className="">{item.leftTexth1}</h1>
@@ -61,8 +61,8 @@ const index = () => {
                     </div>
                     
                     <div key={index} className="flex justify-center relative">  
-                      <div className="h-[50px] w-1 bg-fuchsia-500 absolute top-0 -mt-[66px]"></div>
-                      <div className="rounded-full bg-gradient-general text-white w-10 h-10 flex items-center justify-center text-2xl font-semibold">
+                      <div className="h-[96px] w-[4px] bg-fuchsia-500 absolute top-0 -mt-[106px]"></div>
+                      <div className="rounded-full bg-gradient-general text-white w-10 h-10 flex items-center justify-center text-2xl font-semibold mb-[125px]">
                         {item.number}
                       </div>
                     </div>
@@ -73,8 +73,6 @@ const index = () => {
                 </div>
                )})}
           </div>
-
-        
       </section>
     </>
   )
