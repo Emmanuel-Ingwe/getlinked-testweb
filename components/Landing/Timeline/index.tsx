@@ -67,7 +67,7 @@ const index = () => {
           {items.map((item, index) => {
             return (
               <div key={index} className="grid grid-cols-3">
-                {index % 2 === 0 ? (
+                {index % 2 === 1 ? (
                   <>
                     <div className="flex text-left">
                       <h1 className="text-[24px] text-fuchsia-500 font-bold">
@@ -80,7 +80,7 @@ const index = () => {
                         {item.number}
                       </div>
                     </div>
-                    <div className="flex flex-col text-right">
+                    <div className="flex flex-col">
                       <h1 className="text-[24px] text-fuchsia-500 font-bold">
                         {item.leftTexth1}
                       </h1>
